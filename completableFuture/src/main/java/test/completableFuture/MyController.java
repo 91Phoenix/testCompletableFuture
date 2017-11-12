@@ -20,7 +20,7 @@ public class MyController {
     @ResponseBody
     String home() throws InterruptedException {
     	
-    	logger.info("processing request");
+    	//logger.info("processing request");
     	Thread.sleep(1000);
         return "Hello World!";
     }
